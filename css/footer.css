@@ -1,0 +1,128 @@
+/*Footer*/
+
+footer {
+    background: #222;
+}
+
+.footer__frame {
+    margin: 0 auto;
+    padding: 30px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.footer__text {
+    width: 90%;
+    padding-left: 2rem;
+}
+
+.footer__contact--wrap {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__text > strong {
+    display: block;
+    color: #888;
+    font: 40px/40px "Cambria", Georgia, serif;
+    letter-spacing: 0px;
+    margin: 0 0 20px;
+}
+
+.footer__contact--wrap > strong {
+    display: block;
+    color: #fff;
+    font: 40px/40px "Cambria", Georgia, serif;
+    margin: 0 0 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.20);
+}
+
+.footer__contact--wrap > dl {
+    display: inline-flex;
+    color:#888;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+dd > a {
+    color: #888;
+}
+
+.btn {
+    font: 23px/44px 'clarendon_bold_bt', "Times New Roman", Times, serif;
+    display: inline-block;
+    vertical-align: top;
+    height: 44px;
+    color: #fff;
+    background: #fed703;
+    padding: 0 50px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #000;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+/*Media Query*/
+
+@media only screen and (min-width:320px) and (max-width:640px) {
+   
+
+    footer {
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    .footer__frame {
+        flex-direction: column;
+    }
+
+    .footer__text {
+        padding: 0rem !important;
+    }
+
+    .footer__text > strong { 
+        font-size: 1.2rem !important;
+        padding: 1rem;
+        margin: 0px !important;
+    }
+
+    .footer__contact--wrap > strong {
+        font-size: 1.5rem !important;
+    }
+
+    .footer__contact--wrap > dl {
+        padding: 0rem !important;
+    }
+}
+
+@media only screen and (width: 640px) {
+    .footer__frame {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width:667px) and (max-width:812px) {
+    .footer__text > strong {
+        font-size: 20px;
+    }
+
+    .footer__contact--wrap > strong {
+        font-size: 30px;
+    }
+
+    .footer__contact--wrap > dl {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+}

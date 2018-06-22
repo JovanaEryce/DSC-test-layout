@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/panel-holder.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/content-boxes.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/aside.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/footer.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/sticky.js"></script>
+</head>
+
+<body>
+    <div class="page__wrap" id="page__wrap">
+        <header id="header">
+            <div class="nav">
+                <div class="nav-header">
+                    <div class="nav-title">
+                        <a href="index.html">
+                            <img src="img/logo1.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-btn">
+                    <span>Navigate</span>
+                    <label for="nav-check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+                <input type="checkbox" id="nav-check">
+                <div class="nav-links">
+                    <a href="about.html" class="about">About</a>
+                    <a href="work.html">Work</a>
+                    <a href="contact.html" class="contact">Contact</a>
+                </div>
+            </div>
+        </header>
+        <div class="section group banner">
+            <div class="banner__frame">
+                <div class="text__block">
+                    <div class="box__banner">
+                        <div class="holder">
+                            <h1>Digital Strategy Consultant</h1>
+                            <span>Hello, I'm Phil Mckeith, a digital transformation consultant working with clients in Kent &amp;
+                                London.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/digital-product-designer-london.png" alt="digital-product-designer-london">
+            </div>
+            <div class="menu panel">
+                <div class="panel__holder">
+                    <ul>
+                        <li>
+                            <a data-filter="user-interface-design" data-filter-url="inc/user-interface-design.html" class="ui-design tooltip" href="#">
+                                <span>UI Design</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-filter="web-design" data-filter-url="inc/web-design.html" href="#">
+                                <span>Web Design</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-filter="responsive-design" data-filter-url="inc/responsive-web-design.html" class="respsonive-design tooltip" href="#">
+                                <span>Responsive</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-filter="brand-identity-design" data-filter-url="inc/brand-identity-design.html" class="brand tooltip" href="#">
+                                <span>Brand</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-filter="creative-production" data-filter-url="inc/creative-production-design.html" class="creative tooltip" href="#">
+                                <span>Creative</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <form>
+                        <fieldset>
+                            <span class="select__area">
+                                <span class="select__area--img">
+                                    <img src="img/ico1.png" alt="Recent updates"> Recent updates
+                                </span>
+                                <a class="select__opener">
+                                </a>
+                                <select class="select__filter" style="-webkit-tap-highlight-color: rgba(255, 255, 255, 0); top: 0px; left: 0px; margin: 0px; padding: 0px; opacity: 0; border: none; position: absolute; width: 283px; height: 49px;">
+                                    <option value="all" data-filter-url="inc/list.html" title="images/ico1.png">Recent Updates</option>
+                                    <option value="user-interface-design" data-filter="user-interface-design" data-filter-url="inc/user-interface-design.html"
+                                        title="images/ico5.png">User Interface Design</option>
+                                    <option value="web-design" data-filter="web-design" data-filter-url="inc/web-design.html" title="images/ico3.png">Web Design</option>
+                                    <option value="brand-identity-design" data-filter="brand-identity-design" data-filter-url="inc/brand-identity-design.html"
+                                        title="images/ico2.png">Brand Identity</option>
+                                    <option value="creative-production" data-filter="creative-production" data-filter-url="inc/creative-production-design.html"
+                                        title="images/ico6.png">Design Production</option>
+                                </select>
+                            </span>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--Content-->
+        <div class="section group content__index">
+            <div class="col span_1_of_6 ">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img class="img" src="img/digital-product-design-conceptual-nem.jpg" alt="conceptual">
+                    </a>
+                    <span>Nem</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/digital-product-design-deltawms-tmb.jpg" alt="deltawms">
+                    </a>
+                    <span>Delta WMS</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/user-interface-design-medtronic-lms-hero.jpg" alt="medtronic">
+                    </a>
+                    <span>Medtronic</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/digital-product-design-epprove.jpg" alt="digital-product-design">
+                    </a>
+                    <span>E-pprove</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/ui-design-food-specificaation-tmb.jpg" alt="food">
+                    </a>
+                    <span>Nem</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/digital-product-tww-hero-tmb.jpg" alt="hero">
+                    </a>
+                    <span>Nem</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/brand-identity-pianola-tmb.jpg" alt="pianola">
+                    </a>
+                    <span>Nem</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/enterprise-digital-product-design-fod-tmb.jpg" alt="design">
+                    </a>
+                    <span>Nem</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/digital-product-design-london-falcon-data-brand-tmb.jpg" alt="design">
+                    </a>
+                    <span>Nem</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/web-design-stonebridge-homes-tmb.jpg" alt="design">
+                    </a>
+                    <span>Nem</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/web-design-lazenby-tmb.jpg" alt="design">
+                    </a>
+                    <span>Nem</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/brand-identity-webanywhere-tmb.jpg" alt="design">
+                    </a>
+                    <span>Nem</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/web-design-mad-hatter-tea-tmb.jpg" alt="design">
+                    </a>
+                    <span>Nem</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/silvercross-web-design-tmb.jpg" alt="design">
+                    </a>
+                    <span>Nem</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/web-design-denton-associates-tmb.jpg" alt="design">
+                    </a>
+                    <span>Nem</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/digital-design-mmto-tmb.jpg" alt="design">
+                    </a>
+                    <span>Nem</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/user-interface-design-british-safety-council-tmb.jpg" alt="design">
+                    </a>
+                    <span>Nem</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/user-interface-design-e-learning-london-tmb.jpg" alt="design">
+                    </a>
+                    <span>Nem</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/brand-identity-renovotec-tmb.jpg" alt="design">
+                    </a>
+                    <span>Nem</span>
+                </div>
+            </div>
+            <div class="col span_1_of_6">
+                <div class="item__box">
+                    <div class="hover__icon"></div>
+                    <a href="#" class="item__box--img">
+                        <img src="img/web-design-bic-tmb.jpg" alt="design">
+                    </a>
+                    <span>Nem</span>
+                </div>
+            </div>
+        </div>
+        <!--Section Aside-->
+        <div class="section group aside">
+            <div class="col span_1_of_4">
+
+                <div class="asside__item">
+                    <a href="#">
+                        <img src="img/digital-products-icon.svg" alt="icon">
+                        <strong>Digital products</strong>
+                        <span>Enterprise systems, e-commerce, web applications, and consumer digital products.</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col span_1_of_4">
+                <div class="asside__item">
+                    <a href="#">
+                        <img src="img/user-interface-design-icon.svg" alt="design">
+                        <strong>User interface</strong>
+                        <span>Scaffolding, grids, navigation, iconography, interaction patterns, input elements and UI kits.</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col span_1_of_4">
+                <div class="asside__item">
+                    <a href="#">
+                        <img src="img/user-experience-design-icon.svg" alt="design">
+                        <strong>User Experience</strong>
+                        <span>Architecture, user flows, wireframes, user personas, prototypes, and animation.</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col span_1_of_4">
+                <div class="asside__item">
+                    <a href="#">
+                        <img src="img/visual-design-icon.svg" alt="design">
+                        <strong>Visual Design</strong>
+                        <span>Typography, colour theory, art direction, data visualisation and conceptual prototypes.</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col span_1_of_4">
+                <div class="asside__item">
+                    <a href="#">
+                        <img src="img/brand-design-icon.svg" alt="icon">
+                        <strong>Brand</strong>
+                        <span>Identity, vision, values, architecture, tone of voice, touch points and brand expression.</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col span_1_of_4">
+                <div class="asside__item">
+                    <a href="#">
+                        <img src="img/ux-research-icon.svg" alt="design">
+                        <strong>Research</strong>
+                        <span>Qualitative, quantitive, workshops, one-to-one interviews, customer experience and 360 audits.</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col span_1_of_4">
+                <div class="asside__item">
+                    <a href="#">
+                        <img src="img/strategy-icon.svg" alt="design">
+                        <strong>Strategy</strong>
+                        <span>Positioning, commercial models, team development, marketing and defining product requirements.</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col span_1_of_4">
+                <div class="asside__item">
+                    <a href="#">
+                        <img src="img/optimisation-icon.svg" alt="design">
+                        <strong>Optimisation</strong>
+                        <span>Conversion rate optimisation, search engine optimisation and continuous product iteration.</span>
+                    </a>
+                </div>
+            </div>
+        </div><!--End Aside-->
+    </div>
+    <footer>
+        <div class="section group footer__frame">
+            <div class="col span_1_of_2 footer__text">
+                <strong>To discuss a project commission, product requirements or consulting opportunities please get in touch.</strong>
+            </div>
+            <div class="col span_1_of_2 footer__contact--wrap">
+                <strong>Contact Me.</strong>
+                <dl>
+                    <dt>Email:</dt>
+                    <dd>
+                        <a href="mailto:info@diztinct.co.uk">info@diztinct.co.uk</a>
+                    </dd>
+                </dl>
+                <a href="#" class="btn">Send Enquiry</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
